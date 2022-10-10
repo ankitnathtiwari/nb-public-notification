@@ -1,0 +1,25 @@
+.short-videos {
+  margin: auto;
+  margin-top: 18vh;
+  min-height: 70vh;
+}
+.short-videos-filter {
+  margin: auto;
+  margin-top: 12vh;
+  filter: brightness(0.2);
+  backdrop-filter: brightness(0.6);
+  pointer-events: none;
+}
+.load-more-button {
+  margin-bottom: 20vh;
+}
+@media only screen and (max-width: 1100px) {
+  .short-videos {
+    margin-top: 15vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .short-videos {
+    margin-top: 12vh;
+  }
+}

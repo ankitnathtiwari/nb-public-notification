@@ -1,0 +1,70 @@
+.nav-top-side {
+  display: none;
+  background: #303036;
+  height: 100vh;
+  position: fixed;
+  overflow-y: scroll;
+}
+.nav-top-side div a {
+  display: none;
+}
+
+.nav-top-side-close button {
+  background: #303036;
+  border: none;
+  color: #fefefe;
+  padding: 5px;
+  margin-left: 4px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+.nav-top-side-instruction {
+  border-bottom: 1px solid #777777;
+  margin-top: 2vh;
+}
+.nav-top-side-username {
+  border-bottom: 1px solid #777777;
+  margin-top: 2vh;
+}
+
+.nav-top-side-username p {
+  color: #fefefe;
+  font-size: 16px;
+  margin: 0px;
+  padding: 1px;
+}
+
+.nav-top-side-instruction p {
+  color: #999898;
+  margin: 0px;
+  padding: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-top-side {
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    flex-direction: column;
+    background-color: #303036;
+    width: 220px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 5px 0px;
+    z-index: #303036;
+  }
+  .nav-top-side div {
+    width: 150px;
+    padding: 14px;
+    margin-left: 15px;
+  }
+  .nav-top-side div:hover {
+    background-color: rgb(34, 34, 34);
+  }
+  .nav-top-side div a {
+    display: block;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
